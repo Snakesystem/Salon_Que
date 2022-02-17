@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><meta name="referrer" content="no-referrer"><title>Jengkelin</title><link rel="icon" type="image/png" href="https://storage.googleapis.com/cloudprod-apiai/3c9eb89c-e79f-4f3a-9b24-454030944a72_x.png"/><meta property="og:title" content="Jengkelin"/><meta property="og:description" content="Belajar membuat chatbot"/><meta property="og:locale" content="id"/><meta property="og:image" content="https://storage.googleapis.com/cloudprod-apiai/3c9eb89c-e79f-4f3a-9b24-454030944a72_x.png"/><meta name="viewport" content="width=device-width, initial-scale=1"><link href='https://fonts.googleapis.com/css?family=Roboto:400,300&subset=latin,cyrillic' rel='stylesheet' nonce="0lD7m/ARIUc/UQI+dlDsOw"><link href="https://fonts.googleapis.com/icon?family=Material+Icons+Extended" rel="stylesheet" nonce="0lD7m/ARIUc/UQI+dlDsOw"><style nonce="0lD7m/ARIUc/UQI+dlDsOw">
+
+        @-moz-keyframes blink {0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}} /* Firefox */
+        @-webkit-keyframes blink {0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}} /* Webkit */
+        @-ms-keyframes blink {0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}} /* IE */
+        @keyframes blink {0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}} /* Opera and prob css3 final iteration */
+
+        #preloader {
+            background: #fff;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            z-index: 999999;
+            opacity: 1;
+            filter: alpha(opacity=100);
+            -webkit-transition: opacity 500ms ease;
+            transition: opacity 500ms ease;
+        }
+
+        #preloader .logo {
+            display: block;
+            width: 109px;
+            height: 39px;
+            background-repeat: no-repeat;
+            background-image: url('https://www.gstatic.com/dialogflow-console/common/assets/img/logo@2x-black.png');
+            background-size: contain;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: -20px 0 0 -55px;
+            -moz-transition:all 1s ease-in-out;
+            -webkit-transition:all 1s ease-in-out;
+            -o-transition:all 1s ease-in-out;
+            -ms-transition:all 1s ease-in-out;
+            transition:all 1s ease-in-out;
+            -moz-animation:blink normal 2s infinite ease-in-out; /* Firefox */
+            -webkit-animation:blink normal 2s infinite ease-in-out; /* Webkit */
+            -ms-animation:blink normal 2s infinite ease-in-out; /* IE */
+            animation:blink normal 2s infinite ease-in-out; /* Opera and prob css3 final iteration */
+        }
+
+        noscript h1 {
+            padding: 20px;
+        }
+        </style></head><body><div id="preloader"><noscript><h1>This application does'not work without javascript</h1></noscript><div class="logo"></div></div><div class="b-agent-demo"><div class="b-agent-demo_header"><div class="b-agent-demo_header-icon"><div class="b-agent-demo_header-icon-align-helper"><img id="agent-avatar" src="https://storage.googleapis.com/cloudprod-apiai/3c9eb89c-e79f-4f3a-9b24-454030944a72_x.png" alt="avatar"/></div></div><div class="b-agent-demo_header-wrapper"><div class="b-agent-demo_header-agent-name">Jengkelin</div><div class="b-agent-demo_header-description">Belajar membuat chatbot</div></div></div><div class="b-agent-demo_powered_by"><a href="https://dialogflow.com" target="_blank"><img alt="Dialogflow Logo" src="https://www.gstatic.com/dialogflow-console/common/assets/img/logo@2x-black.png"/><span>Powered by</span></a></div><div class="b-agent-demo_result" id="resultWrapper"><table class="b-agent-demo_result-table"><tr><td id="result"></td></tr></table></div><div class="clearfix"></div><div class="b-agent-demo_input"><form id="agentDemoForm"><input type="text" name="q" id="query" placeholder="Ask something..."/><i class="b-agent-demo_input-microphone material-icons-extended" id="mic">mic</i></form></div></div><script nonce="RCZiZw+v0EqLFGAGcqsQPg">AGENT_LANGUAGE = "id"; AGENT_ID = "243d9454-4af3-42c3-9003-1446c61fcdd9"; AGENT_AVATAR_ID = "https:\/\/storage.googleapis.com\/cloudprod-apiai\/3c9eb89c-e79f-4f3a-9b24-454030944a72_x.png"; SERVICE_BASE_URL = ""; BOT_SERVICE_BASE_URL = ""; V2_ENABLED = true;
+    window['addStyleString'] = function(str) {
+      var node = document.createElement('style');
+      node.textContent = str;
+      document.head.appendChild(node);
+    };
+    </script><script defer src="https://www.gstatic.com/dialogflow-console/fast/webdemo/webdemo-legacy.min.js" nonce="RCZiZw+v0EqLFGAGcqsQPg"></script></body></html>
