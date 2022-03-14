@@ -66,21 +66,26 @@
             <div class="d-none d-xl-inline-block">
               <ul class="site-menu js-clone-nav ml-auto list-unstyled d-flex text-right mb-0" data-class="social">
                 <li>
-                  <a href="#" class="pl-0 pr-3 text-black"><span class="icon-facebook"></span></a>
+                  <a href="https://snakesystem.github.io/warning.html" class="pl-0 pr-3 text-black"><span
+                      class="icon-facebook"></span></a>
                 </li>
                 <li>
-                  <a href="#" class="pl-3 pr-3 text-black"><span class="icon-twitter"></span></a>
+                  <a href="https://snakesystem.github.io/warning.html" class="pl-3 pr-3 text-black"><span
+                      class="icon-twitter"></span></a>
                 </li>
                 <li>
-                  <a href="#" class="pl-3 pr-3 text-black"><span class="icon-instagram"></span></a>
+                  <a href="https://snakesystem.github.io/warning.html" class="pl-3 pr-3 text-black"><span
+                      class="icon-instagram"></span></a>
                 </li>
                 <li>
-                  <a href="#" class="pl-3 pr-3 text-black"><span class="icon-youtube-play"></span></a>
+                  <a href="https://snakesystem.github.io/warning.html" class="pl-3 pr-3 text-black"><span
+                      class="icon-youtube-play"></span></a>
                 </li>
               </ul>
             </div>
 
-            <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#"
+            <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a
+                href="https://snakesystem.github.io/warning.html"
                 class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a>
             </div>
           </div>
@@ -107,87 +112,105 @@
       <div class="container">
         <div class="row">
           <div class="col-md-7 mb-5">
-            <form action="#" class="p-5 bg-white">
-              <h2 class="mb-4 site-section-heading">Pesan Sekarang</h2>
-
-              <div class="row form-group">
-                <div class="col-md-6 mb-3 mb-md-0">
-                  <label class="text-black" for="fname">Nama Depan</label>
-                  <input type="text" id="fname" class="form-control" placeholder="First Name">
+            <h2 class="mb-4 site-section-heading">Pesan Sekarang</h2>
+            <form id="contact" action="" method="post" name="submit-to-google-sheet">
+              <div class="row">
+                <div class="col-md-6">
+                  <fieldset>
+                    <label class="text-black" for="treatment">Nama Depan</label>
+                    <input name="namadepan" type="text" class="form-control" id="name" placeholder="Nama depan..."
+                      required="" />
+                  </fieldset>
                 </div>
                 <div class="col-md-6">
-                  <label class="text-black" for="lname">Nama Belakang</label>
-                  <input type="text" id="lname" class="form-control" placeholder="Last Name">
+                  <fieldset>
+                    <label class="text-black" for="treatment">Nama Belakang</label>
+                    <input name="namabelakang" type="text" class="form-control" id="email"
+                      placeholder="Nama belakang..." required="" />
+                  </fieldset>
                 </div>
-              </div>
-
-              <div class="row form-group">
-                <!-- <div class="col-md-6 mb-3 mb-md-0">
-                  <label class="text-black" for="date">Tanggal Pesanan</label>
-                  <input type="text" id="date" class="form-control datepicker px-2" placeholder="Date of visit">
-                </div> -->
-                <div class="col-md-6">
-                  <label class="text-black" for="email">Nomor HP/WA</label>
-                  <input type="number" id="email" class="form-control" placeholder="Nomor Telepon">
-                </div>
-              </div>
-
-              <div class="row form-group">
                 <div class="col-md-12">
-                  <label class="text-black" for="treatment">Jenis Pesanan</label>
-                  <select name="treatment" id="treatment" class="form-control">
-                    <option value="">Hair Cut</option>
-                    <option value="">Hair Cut & Fashion</option>
-                    <option value="">Blow/Catok Variasi</option>
-                    <option value="">Creambat Tradisional</option>
-                    <option value="">Oily Scalp Only</option>
-                    <option value="">Pro Fiber Treatment</option>
-                    <option value="">Inforcer Treatment</option>
-                    <option value="">Hairspa</option>
-                    <option value="">Hairspa Scub</option>
-                    <option value="">Antidandruf Scalp Treatment</option>
-                    <option value="">Oily Scalp Treatment</option>
-                    <option value="">Repair Lipidium Expert</option>
-                    <option value="">Anti Hair Lost</option>
-                    <option value="">Smooting S</option>
-                    <option value="">Smooting L</option>
-                    <option value="">Extra Smooting</option>
-                    <option value="">Full Color (Men)</option>
-                    <option value="">Full Color (Woman) S</option>
-                    <option value="">Full Color (Woman) L</option>
-                    <option value="">Hight Light (Men)</option>
-                    <option value="">Hight Light (Women)</option>
-                    <option value="">Body Massage 60'</option>
-                    <option value="">Body Massage 90'</option>
-                    <option value="">Massage + Scrub</option>
-                    <option value="">Massage 30'</option>
-                    <option value="">Layanan Kuku</option>
-                    <option value="">Paket Hemat Gunting + Blow</option>
-                    <option value="">Paket Hemat Creambath + Gunting</option>
-                    <option value="">Paket Hemat Creambath + Menicure + Predicure + Blow Dry</option>
-                    <option value="">Paket Hemat Creambath + Body Massage 30' + Scrub Body + Blow Dry</option>
-                    <option value="">Paket Hemat Creambath + Body Massage 60' + Scrub Body + Blow Dry</option>
-                    <option value="">Paket Hemat Creambath + Totok Wajah + Body Massage 60' + Scrub Body + Blow Dry
-                    </option>
-                    <option value="">Paket Hemat Creambath + Totok Wajah + Scrub Body + Blow Dry</option>
-                  </select>
+                  <fieldset>
+                    <label class="text-black" for="treatment">Nomor Telepon/Whattsapp</label>
+                    <input name="nomortelepon" type="text" class="form-control" placeholder="Masukan omor telepon..."
+                      required="" />
+                  </fieldset>
                 </div>
-              </div>
-
-              <div class="row form-group">
                 <div class="col-md-12">
-                  <label class="text-black" for="note">Tulis Pesan</label>
-                  <textarea name="note" id="note" cols="30" rows="5" class="form-control"
-                    placeholder="Silahkan tulis pesanan disini..."></textarea>
+                  <fieldset>
+                    <label class="text-black" for="treatment">Jenis Pesanan</label>
+                    <select name="pesanan" class="custom-select" id="pilih">
+                      <option value="Hair Cut">Hair Cut</option>
+                      <option value="Hair Cut & Fashion">Hair Cut & Fashion</option>
+                      <option value="Blow/Catok Variasi">Blow/Catok Variasi</option>
+                      <option value="Creambat Tradisional">Creambat Tradisional</option>
+                      <option value="Oily Scalp Only">Oily Scalp Only</option>
+                      <option value="Pro Fiber Treatment">Pro Fiber Treatment</option>
+                      <option value="Inforcer Treatment">Inforcer Treatment</option>
+                      <option value="Hair Spa">Hair Spa</option>
+                      <option value="Hairspa Scub">Hairspa Scub</option>
+                      <option value="Antidandruf Scalp Treatment">Antidandruf Scalp Treatment</option>
+                      <option value="Oily Scalp Treatment">Oily Scalp Treatment</option>
+                      <option value="Repair Lipidium Expert">Repair Lipidium Expert</option>
+                      <option value="Anti Hair Lost">Anti Hair Lost</option>
+                      <option value="Smooting S">Smooting S</option>
+                      <option value="Smooting L">Smooting L</option>
+                      <option value="Extra Smooting">Extra Smooting</option>
+                      <option value="Full Color (Men)">Full Color (Men)</option>
+                      <option value="Full Color (Woman) S">Full Color (Woman) S</option>
+                      <option value="Full Color (Woman) L">Full Color (Woman) L</option>
+                      <option value="Hight Light (Men)">Hight Light (Men)</option>
+                      <option value="Hight Light (Women)">Hight Light (Women)</option>
+                      <option value="Body Massage 60'">Body Massage 60'</option>
+                      <option value="Body Massage 90'">Body Massage 90'</option>
+                      <option value="Massage + Scrub">Massage + Scrub</option>
+                      <option value="Massage 30'">Massage 30'</option>
+                      <option value="Layanan Kuku">Layanan Kuku</option>
+                      <option value="Paket Hemat Gunting + Blow">Paket Hemat Gunting + Blow</option>
+                      <option value="Paket Hemat Creambath + Gunting">Paket Hemat Creambath + Gunting</option>
+                      <option value="Paket Hemat Creambath + Menicure + Predicure + Blow Dry">Paket Hemat Creambath +
+                        Menicure + Predicure + Blow Dry</option>
+                      <option value="Paket Hemat Creambath + Body Massage 30' + Scrub Body + Blow Dry">Paket Hemat
+                        Creambath + Body Massage 30' + Scrub Body + Blow Dry</option>
+                      <option value="Paket Hemat Creambath + Body Massage 60' + Scrub Body + Blow Dry">Paket Hemat
+                        Creambath + Body Massage 60' + Scrub Body + Blow Dry</option>
+                      <option value="Paket Hemat Creambath + Totok Wajah + Body Massage 60' + Scrub Body + Blow Dry">
+                        Paket Hemat Creambath + Totok Wajah + Body Massage 60' + Scrub Body + Blow
+                        Dry
+                      </option>
+                      <option value="Paket Hemat Creambath + Totok Wajah + Scrub Body + Blow Dry">Paket Hemat Creambath
+                        + Totok Wajah + Scrub Body + Blow Dry</option>
+                    </select>
+                  </fieldset>
                 </div>
-              </div>
-
-              <div class="row form-group">
-                <div class="col-md-12">
-                  <input type="submit" value="Kirim" class="btn btn-primary py-2 px-4 text-white">
+                <div class=" col-md-12">
+                  <fieldset>
+                    Pesan
+                    <textarea name="pesan" rows="6" class="form-control" id="message"
+                      placeholder="Silahkan tulis permintaan..." required=""></textarea>
+                  </fieldset>
+                </div>
+                <div class="col-md-12 mt-4">
+                  <fieldset>
+                    <button type="submit" id="form-submit" class="button btn-success btn-kirim">
+                      Send Message
+                    </button>
+                    <!-- Loading button -->
+                    <button class="button btn-warning btn-loading d-none" type="button" disabled>
+                      <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                      Sedang mengirim...
+                    </button>
+                  </fieldset>
+                  <div class="mt-4 alert alert-success alert-dismissible fade show d-none alertku" role="alert">
+                    <strong>Terima Kasih!</strong> Pesan Anda sudah di terima
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
                 </div>
               </div>
             </form>
+
           </div>
           <div class="col-md-5">
 
@@ -242,10 +265,14 @@
         <div class="row pt-5 mt-5 text-center">
           <div class="col-md-12">
             <div class="mb-5">
-              <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+              <a href="https://snakesystem.github.io/warning.html" class="pl-0 pr-3"><span
+                  class="icon-facebook"></span></a>
+              <a href="https://snakesystem.github.io/warning.html" class="pl-3 pr-3"><span
+                  class="icon-twitter"></span></a>
+              <a href="https://snakesystem.github.io/warning.html" class="pl-3 pr-3"><span
+                  class="icon-instagram"></span></a>
+              <a href="https://snakesystem.github.io/warning.html" class="pl-3 pr-3"><span
+                  class="icon-linkedin"></span></a>
             </div>
 
             <p>
@@ -254,7 +281,7 @@
                 src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
               <script>
                 document.write(new Date().getFullYear());
-              </script> All rights reserved | This template is made with <i class="icon-heart-o" aria-hidden="true"></i>
+              </script> All rights reserved | This website is made with <i class="icon-heart-o" aria-hidden="true"></i>
               by <a href="https://www.instagram.com/hafidzmurtono/">hafid77</a> & <a
                 href="https://www.instagram.com/fery_ir.1/" target="_blank">Snakesystem</a>
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -278,6 +305,41 @@
   <script src="js/aos.js"></script>
 
   <script src="js/main.js"></script>
+
+  <!-- FORM GOOGLE SHEET -->
+  <script>
+    const scriptURL =
+      'https://script.google.com/macros/s/AKfycbyjdItP1Y5P-FaoIr1nC4E2Vwb6Kc_hN7jxSEa9SbIiPEPowhuNhizTdPvHswwRJJ2w/exec';
+    const form = document.forms['submit-to-google-sheet']
+    //variabel baru
+    const btnKirim = document.querySelector('.btn-kirim');
+    const btnLoading = document.querySelector('.btn-loading');
+    const myAlert = document.querySelector('.alertku');
+
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      //ketika tombol send message di klik maka tampilkan tombol loading dan hilangkan tombol kirim
+      btnLoading.classList.toggle('d-none');
+      btnKirim.classList.toggle('d-none');
+
+      fetch(scriptURL, {
+          method: 'POST',
+          body: new FormData(form)
+        })
+        .then(response => {
+          //ketika tombol selesai loading maka tampilkan tombol send message kembali
+          btnLoading.classList.toggle('d-none');
+          btnKirim.classList.toggle('d-none');
+          //jika berhasil maka tampilkan alertnya
+          myAlert.classList.toggle('d-none');
+          //reset form, merefresh semua tulisan
+          form.reset();
+
+          console.log('Success!', response)
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
 
 </body>
 
